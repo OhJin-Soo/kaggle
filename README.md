@@ -17,3 +17,20 @@ kaggle ml,dl,llm,...
 사용 모델 : 순서대로 "cardiffnlp/twitter-roberta-base-sentiment-latest","sentence-transformers/all-mpnet-base-v2" + "LogisticRegression" + "cosine_similarity", "google/flan-t5-small" 사용
 요약 : Accuracy 순서대로 0.82,0.77,0.43  
 생성 모델이 성능이 제일 높을줄 알았는데 제일 낮았고, 압도적으로 낮았음. 의외였음.  
+
+07.23 nltk/spacy_keras_sentiment_analysis - nltk/spacy 이용  
+데이터 출처 : https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview, https://www.kaggle.com/datasets/utathya/imdb-review-dataset  
+기술스택 : nltk,spacy,tesorflow.keras  
+사용모델 : keras nlp 기본모델  
+요약 : 처음 lemmatize를 두번 적용(기본 lemmatize, 동사로 lemmatize) 방식 - 0.96으로 가장 높음.  
+pos_tag 방식 사용 - 0.34  
+spacy 방식 사용 - 0.28  
+로 처음 방식에 비해 상당히 낮음.  
+이유 -  
+pos_tagging 방식이 점수가 낮았던 이유 -  
+pos_tag 방식으로 세부적으로 동시,형용사,명사로 나눠서 진행햇는데, 오히려 본래 의미를 해친듯.  
+태깅 정확도가 낮았을수도 잇음.  
+불용어 제거가 잘 안됐을수도 잇음.  
+
+spacy 방식이 점수가 낮았던 이유 -  
+spacy도 마찬가지로 의미를 해쳤거나, 전처리가 잘안됨.  
