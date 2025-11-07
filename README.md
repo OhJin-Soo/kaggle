@@ -1,7 +1,7 @@
 # kaggle
 kaggle ml,dl,llm,...
 
-07.17 spaceship-titanic-reg1.ipynb - 전통적 ml을 통해 작성.  
+07.17 spaceship-titanic-reg1.ipynb - ml을 통해 작성.  
 데이터 출처 : https://www.kaggle.com/competitions/spaceship-titanic  
 기술스택 : sklearn  
 목적 : 'Transported' 예측  
