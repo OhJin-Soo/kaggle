@@ -21,7 +21,7 @@ kaggle ml,dl,llm,...
 07.23 nltk/spacy_keras_sentiment_analysis - nltk/spacy 이용  
 데이터 출처 : https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview, https://www.kaggle.com/datasets/utathya/imdb-review-dataset  
 기술스택 : nltk,spacy,tesorflow.keras  
-사용모델 : keras nlp 기본모델  
+사용모델 : keras, nlp 기본모델  
 요약 : 처음 lemmatize를 두번 적용(기본 lemmatize, 동사로 lemmatize) 방식 - 0.96으로 가장 높음.  
 pos_tag 방식 사용 - 0.34  
 spacy 방식 사용 - 0.28  
