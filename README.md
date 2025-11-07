@@ -1,7 +1,7 @@
 # kaggle
 kaggle ml,dl,llm,...
 
-07.17 spaceship-titanic-reg1.ipynb - ml을 통해 작성.  
+07.17 spaceship-titanic-reg1.ipynb - ml을 통해 구현.  
 데이터 출처 : https://www.kaggle.com/competitions/spaceship-titanic  
 기술스택 : sklearn  
 목적 : 'Transported' 예측  
@@ -10,7 +10,7 @@ kaggle ml,dl,llm,...
 따라서 비선형 피처를 대거 추가, 공선성을 유발하는 피처들 제거, PCA로 차원 축소 진행 --> 역시 로지스틱의 경우엔 0.75에서 0.70으로 급격한 감소 but 비선형 모델의 경우엔 성능의 변화가 없었음.  
   결론 : 피처의 비선형성 반영은 충분히 했음. 추가적인 전략이 필요해 보임.  
 
-07.17 sentiment-analysis-by-llm.ipynb - llm 이용해 작성  
+07.17 sentiment-analysis-by-llm.ipynb - llm 이용해 구현  
 데이터 출처 : https://www.kaggle.com/competitions/nlp-getting-started/overview  
 기술스택 : embedding, llm, huggingface  
 목적 : twitter 리뷰 데이터 감성분석  
